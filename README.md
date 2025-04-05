@@ -12,7 +12,7 @@ A Bun TypeScript project that provides a Model Context Protocol (MCP) server for
 
 ## Installation
 
-For _Roo Code_
+For **Roo Code**
 
 ```
 {
@@ -35,7 +35,7 @@ For _Roo Code_
 }
 ```
 
-Current `SYSTEM_INSTRUCTION`
+**Default `SYSTEM_INSTRUCTION`**
 
 ```
 Clean up the provided code like a professional software engineer, focusing on:
