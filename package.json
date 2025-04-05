@@ -1,10 +1,10 @@
 {
-  "name": "code-cleanup",
+  "name": "@first-to-fly/code-cleanup",
   "version": "1.0.0",
   "description": "MCP for cleaning up code files using Google's Generative AI.",
   "main": "dist/index.js",
   "bin": {
-    "@first-to-fly/code-cleanup-mcp": "./dist/index.js"
+    "code-cleanup": "./dist/index.js"
   },
   "scripts": {
     "build": "bun build index.ts --outdir dist --target bun",
