@@ -1,0 +1,28 @@
+{
+  "name": "code-cleanup",
+  "version": "1.0.0",
+  "description": "MCP for cleaning up code files using Google's Generative AI.",
+  "main": "dist/index.js",
+  "bin": {
+    "@first-to-fly/code-cleanup-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun",
+    "prepublishOnly": "bun run build",
+    "test": "bun test"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^0.7.0",
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.24.2"
+  }
+}
